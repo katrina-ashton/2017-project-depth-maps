@@ -1,0 +1,3 @@
+function x = getcnt(S,m)
+scale_0 = @(t) (0<=t<1
+end

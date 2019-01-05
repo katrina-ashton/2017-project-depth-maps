@@ -1,0 +1,32 @@
+SOHO: SYMMETRIC AND ORTHOGONAL HAAR WAVELETS ON THE SPHERE
+==========================================================
+
+LICENSE
+-------
+
+Copyright (C) 2008  Christian Lessig (University of Toronto)
+
+This source code is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version. A subset of the files can be published as long as this file is included.
+
+This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+SOURCE CODE
+-----------
+
+This code implements the symmetric and orthogonal spherical Haar wavelets developed by Lessig and Fiume and allows to reproduce the published results [1]. A simple example on how to use the code can be found in runSimpleExperiment.m. We also provide code for the computation of rotation matrices for spherical Haar wavelets and a simple implementation of Spherical Harmonics (following the one outlined by Green [2]) which allows to compare spherical Haar wavelets and spherical Harmonics. The program code has been tested with Matlab 7.X.
+
+The Spherical Harmonics directory contains some code from Frederick J. Simmons (http://geoweb.princeton.edu/people/simons/software.html) and we also employ the matlabPyrTools toolbox by Eero P. Simoncelli (http://www.cns.nyu.edu/~lcv/software.php) which is contained in the utility/ directory.
+
+If you have questions, comments, or you found a bug then please contact us:
+lessig (at) dgp (dot) toronto (dot) edu.
+
+
+PUBLICATIONS
+------------
+
+[1] Christian Lessig and Eugene Fiume, SOHO: Symmetric and Orthogonal Wavelets on the Sphere, ACM Trans. Graph., 2008.
+[2] Robin Green, Spherical Harmonics Lighting: The Gritty Details, http://www.research.scea.com/gdc2003/spherical-harmonic-lighting.html
+
